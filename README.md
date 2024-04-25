@@ -15,7 +15,6 @@ Ensure you have the following Python packages installed:
 - **scikit-learn**:
 - **pandas**:
 
-
-  ## Contributing
+## Contributing
 
 - **Contributions are welcome! Please fork the project, make your changes, and submit a pull request**:
