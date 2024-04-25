@@ -8,7 +8,7 @@ This repository contains Python code for constructing knowledge graphs from ARC 
 - **Graph Construction**: Build and manipulate graph structures from task data.
 - **Visualization**: Dynamically visualize knowledge graphs with color-coded nodes and edges.
 
-#DSL structure 
+# DSL structure 
 
 This repository is dedicated to constructing and analyzing knowledge graphs from the Abstraction and Reasoning Corpus (ARC) tasks using a suite of domain-specific language (DSL) tools. These tools are organized across three primary layers of operation: **P-layer**, **Onode layer**, and **Gnode layer**, each offering unique functionalities tailored to different aspects of knowledge graph manipulation and analysis.
 
