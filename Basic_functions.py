@@ -323,16 +323,3 @@ def visualize(node_list, edge_list, tag):
     plt.show()
 
 
-def get_manhattan_dist (node1,node2) : 
-    x = abs(node1.coordinate[0] - node2.coordinate[0])
-    y = abs(node1.coordinate[1] - node2.coordinate[1])
-    dist = x + y
-    return dist
-    
-def get_polar_dist (node1, node2) :
-    x = abs(node1.coordinate[0] - node2.coordinate[0])
-    y = abs(node1.coordinate[1] - node2.coordinate[1])
-    return x if x > y else y
-
-def get_color (node) :
-    return node.color 
