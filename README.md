@@ -14,3 +14,8 @@ Ensure you have the following Python packages installed:
 - **numpy**:
 - **scikit-learn**:
 - **pandas**:
+
+
+- **Contributing**:
+
+- **Contributions are welcome! Please fork the project, make your changes, and submit a pull request**:
