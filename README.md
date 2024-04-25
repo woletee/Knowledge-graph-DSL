@@ -10,7 +10,7 @@ This repository contains Python code for constructing knowledge graphs from ARC 
 
 # DSL structure 
 
-This repository is dedicated to constructing and analyzing knowledge graphs from the Abstraction and Reasoning Corpus (ARC) tasks using a suite of domain-specific language (DSL) tools. These tools are organized across three primary layers of operation: **P-layer**, **Onode layer**, and **Gnode layer**, each offering unique functionalities tailored to different aspects of knowledge graph manipulation and analysis.
+This repository is dedicated to constructing and analyzing knowledge graphs from the Abstraction and Reasoning Corpus (ARC) tasks using a suite of domain-specific language (DSL) tools. These tools are organized across three primary layers of operation: **P-layer**, **Onode layer**, and **Gnode layer**, each offering unique functionalities tailored to different aspects of knowledge graph manipulation and analysis. Currently DSLs basically focus on the grid **Size** and **Color!**
 
 ### P-layer DSLs
 The **P-layer** operates at the most granular level, dealing directly with individual nodes (Pnodes). This layer includes functions for basic node properties and metrics, such as:
