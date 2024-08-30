@@ -2,7 +2,9 @@
 
 This repository contains Python code for constructing knowledge graphs from ARC (Abstraction and Reasoning Corpus) task grids. The project utilizes graph-based data structures to analyze and visualize relationships within ARC tasks, facilitating a deeper understanding of spatial and relational patterns.
 
-## you can find the paper here published in IJCAI-LNSAI-2024
+## Paper
+
+You can find the paper published in IJCAI-LNSAI-2024 [here](https://example.com/your-paper-link.pdf).
 
 ## Features
 
