@@ -301,3 +301,25 @@ def get_to_is (get_f, target = None): ## is_square 같은 함수는 get 함수�
     return is_dsl, tag
 
 
+def visualize(node_list, edge_list, tag):
+    x = []
+    y = []
+    colors = []
+    num_nodes = len(node_list)
+    for ele in (node_list):
+        x.append(ele.visual_coord[0])
+        y.append(ele.visual_coord[1])
+        colors.append(ele.color)
+    for i in range(len(node_list)):
+        plt.text(x[i] - 0.1, y[i]- 0.1, node_list[i].number , size = 15, color = 'white')
+
+    for i in range(num_nodes) :
+        for j in range(i, num_nodes) :
+            for edge in edge_list:
+                if edge.node_set == {node_list[i], node_list[j]} and edge.tag == tag:
+                    plt.plot([x[i], x[j]], [y[i], y[j]], color = 'black', linewidth = 3)
+    plt.axis('off')
+    plt.axis('equal')
+    plt.scatter(x, y, s = 500, c = colors, cmap = cmap, norm = norm)
+    plt.show()
+
